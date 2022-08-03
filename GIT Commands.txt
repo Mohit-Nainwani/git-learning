@@ -16,6 +16,7 @@ git log : It will log all your commit. Every commit has a hash code, message, au
 
 git remote add origin SSHLink : to add remote repoistory, provide SSHLink in git bash
 
+git push -u origin master: it will make origin master default, then we can use only *git push* 
 git push origin master : It will push the commits from lovcal repository to remote repository
 
 git pull origin master : It will pull commits from Remote repository to local repository
@@ -36,7 +37,13 @@ git checkout BRANCHNAME : to change the branch to given branchname
 
 to merge the branches, change the branch to master with command : git checkout master
 
-git merge BRANCHNAME : to merge the branchname with master branch
+git merge BRANCHNAME : to merge the branchname with master branch,then push it to remote repository
+
+after merging th ebranch with master , its good to delete that branch
+
+git branch -d BRANCHNAME : it will delete the branch only from local repository
+
+git pushh origin --delete BRANCHNAME : It will delete the branch from remote repository also
 
 
 
