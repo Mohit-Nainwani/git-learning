@@ -10,6 +10,7 @@ git init : To initialize a folder as git folder. A hidden file named ".git" will
 git add . : To add all files from working directory to staging area
 
 git commit -m "message" : To commit your code form staging area to repository. Message is compulsory.
+"Initial Commit" is the message when we are commiting code for 1st time
 
 git log : It will log all your commit. Every commit has a hash code, message, author details, date of commit
 
@@ -26,6 +27,17 @@ git diff --staged : to know the difference between previous version of file and 
 git reset FILENAME : to rollback from staging area
 
 git checkout . : to rollback all files to previous version in working repository
+
+git branch : to check the branch of git repository(default : Master)
+
+git branch BRANCHNAME : to create new branch
+
+git checkout BRANCHNAME : to change the branch to given branchname
+
+to merge the branches, change the branch to master with command : git checkout master
+
+git merge BRANCHNAME : to merge the branchname with master branch
+
 
 
 
