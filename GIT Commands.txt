@@ -1,0 +1,15 @@
+ARCHITECTURE OF GIT : WORKING AREA -> STAGING AREA -> REPOSITORY
+
+git config --global user.name "name"
+git config --global user.email "emailid"
+
+git status : TO know the status of the folder
+
+git init : To initialize a folder as git folder. A hidden file named ".git" will be created.
+
+git add . : To add all files from working directory to staging area
+
+git commit -m "message" : To commit your code form staging area to repository. Message is compulsory.
+
+git log : It will log all your commit. Every commit has a hash code, message, author details, date of commit
+
