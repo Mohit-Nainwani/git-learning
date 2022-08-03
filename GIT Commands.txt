@@ -15,9 +15,19 @@ git log : It will log all your commit. Every commit has a hash code, message, au
 
 git remote add origin SSHLink : to add remote repoistory, provide SSHLink in git bash
 
-git push : It will push the commits from lovcal repository to remote repository
+git push origin master : It will push the commits from lovcal repository to remote repository
 
-git pull : It will pull commits from Remote repository to local repository
+git pull origin master : It will pull commits from Remote repository to local repository
+
+git diff : to know the difference between previous version of file and current version of modified file
+
+git diff --staged : to know the difference between previous version of file and current version of modified file in staging area
+
+git reset FILENAME : to rollback from staging area
+
+git checkout . : to rollback all files to previous version in working repository
+
+
 
 
 
