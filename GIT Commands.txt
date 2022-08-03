@@ -1,4 +1,4 @@
-ARCHITECTURE OF GIT : WORKING AREA -> STAGING AREA -> REPOSITORY
+ARCHITECTURE OF GIT : WORKING AREA -> STAGING AREA -> LOCAL REPOSITORY -> REMOTE REPOSITORY
 
 git config --global user.name "name"
 git config --global user.email "emailid"
@@ -12,4 +12,12 @@ git add . : To add all files from working directory to staging area
 git commit -m "message" : To commit your code form staging area to repository. Message is compulsory.
 
 git log : It will log all your commit. Every commit has a hash code, message, author details, date of commit
+
+git remote add origin SSHLink : to add remote repoistory, provide SSHLink in git bash
+
+git push : It will push the commits from lovcal repository to remote repository
+
+git pull : It will pull commits from Remote repository to local repository
+
+
 
